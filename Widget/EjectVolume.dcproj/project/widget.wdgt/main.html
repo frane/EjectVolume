@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="main.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/System/Library/WidgetResources/AppleClasses/AppleInfoButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/System/Library/WidgetResources/AppleClasses/AppleAnimator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/System/Library/WidgetResources/AppleClasses/AppleButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/parts.js" charset="utf-8"></script>    
+
+</head>
+<body onload="EjectVolumeWidget.setup();">
+    <div id="front">
+        <div id="title"><div id="info_button"></div></div>
+        <div id="info"></div>
+        <div id="widget">
+            <ul id="volumes">
+            </ul>
+        </div>
+    </div>
+    <div id="back">
+        <img src="Images/title.png" id="img">
+        <img src="Images/eject_icon.png"><br>
+        Version 0.3 <br><br>
+        © 2009, 2010 Frane Bandov<br>
+        <a onclick="widget.openURL('http://frane.offbyte.com')" href="#">http://frane.offbyte.com</a><br>
+        <div id="done_button"></div>
+    </div>
+</body>
+</html>

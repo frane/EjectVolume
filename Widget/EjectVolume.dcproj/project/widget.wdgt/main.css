@@ -1,0 +1,183 @@
+body {
+    margin: 0px;
+    border-style: none;
+    border-width: initial;
+    border-color: initial;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Myriad Pro', Arial;
+    font-weight: bold;
+}
+
+#widget {
+    text-align: center;
+}
+
+#volumes {
+    margin: 0px;
+    padding: 0px;
+}
+
+#volumes li {
+    display: block;
+    color:#000;
+    text-shadow: 2px 2px 2px #aeaeae;
+    text-decoration:none;
+    margin:0;
+    background: #8f8f8f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#cecece), to(#8f8f8f));
+    -webkit-border-radius: 10px;
+    height: 32px;
+    width: 190px;
+}
+
+#volumes li:hover {
+    background: #2288dd;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6bb2ff), to(#2288dd));
+    color: #fff;
+}
+
+#volumes li .volume_eject {
+    margin-top: 4px;
+    width: 24px;
+    height: 24px;
+    background: url(Images/eject_normal.png) 6px 6px no-repeat;
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 20px;
+}
+
+#volumes li:hover .volume_eject {
+    background: url(Images/eject_hover.png) 6px 6px no-repeat;
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 20px;
+}
+
+#volumes li:hover .volume_eject:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-border-radius: 20px;
+}
+
+#title {
+    border-style: none;
+    border-width: initial;
+    border-color: initial;
+    background-image: url(Images/title.png);
+    background-repeat: initial;
+    background-attachment: initial;
+    -webkit-background-clip: initial;
+    -webkit-background-origin: initial;
+    background-color: initial;
+    margin: 0px;
+    width: 190px;
+    height: 30px;
+}
+
+.volume_icon {
+    float: left;
+    margin-top: 5px;
+    margin-left: 2px;
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.volume_text {
+    float: left;
+    margin-left:2px;
+    margin-top: 9px;
+    overflow: hidden;
+    max-width: 125px;
+    max-height: 16px;
+}
+
+.volume_eject {
+    float: right;
+    margin-top: 1px;
+    margin-right: 2px;
+    z-index: 200;
+}
+
+#info_button {
+    position: absolute;
+    top: 8px;
+    right: 24px;
+}
+
+#eject_all {
+    float: left;
+    border: 1px soild #000;
+    height: 24px;
+    margin-top: 3px;
+    margin-left: 4px;
+}
+
+#eject_all #eject_all_button {
+    width: 24px;
+    height: 24px;
+    float: left;
+    background: url(Images/eject_normal.png) 6px 6px no-repeat;
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 20px;
+}
+
+#eject_all #eject_all_text {
+    height: 22px;
+    width: 140px;
+    margin-left: 2px;
+    padding-top: 5px;
+    float: left;
+    text-align: left;
+    background: #8f8f8f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#cecece), to(#8f8f8f));
+    display: none;
+}
+
+#eject_all:hover #eject_all_text {
+    display: block;
+}
+
+#eject_all:hover #eject_all_button {
+    -webkit-border-radius: 20px;
+    background: url(Images/eject_hover.png) 6px 6px no-repeat;
+    background-color: rgba(0, 0, 0, 1);
+
+}
+
+#front {
+    display: block;
+}
+
+#back {
+    display: none;
+    height: 160px;
+    background: #8f8f8f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#cecece), to(#8f8f8f));
+    -webkit-border-radius:5px;
+    -webkit-background-clip: initial;
+    -webkit-background-origin: initial;
+    background-color: initial;
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#done_button {
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+}
+
+#img {
+    width: 190px;
+    height: 30px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-top: 0px;
+}
+
+a {
+ color: #000;
+}
+
+a:hover {
+    color: #fff;
+}
